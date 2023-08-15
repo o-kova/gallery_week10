@@ -11,3 +11,9 @@ function nextImg() {
 
 let imageLeft = document.getElementById("leftCat");
 let imageRight = document.getElementById("rightCat");
+
+// задание под звездочкой
+function calculateTotalPrice(quantity, price) {
+  // quantity - количество единиц товара
+  // price - цена за единицу товара
+}

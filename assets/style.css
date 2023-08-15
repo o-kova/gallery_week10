@@ -11,7 +11,6 @@ h2 {
 }
 
 .btn {
-  width: 100px;
   height: 30px;
   padding: 0 20px;
   background-color: rgb(133, 85, 33);
@@ -21,11 +20,18 @@ h2 {
 }
 
 .btn-left {
+  width: 100px;
   border-radius: 50% 0 0 50%;
 }
 
 .btn-right {
+  width: 100px;
   border-radius: 0 50% 50% 0;
+}
+
+.btn-one {
+  width: 200px;
+  border-radius: 5px;
 }
 
 .btn:hover {
