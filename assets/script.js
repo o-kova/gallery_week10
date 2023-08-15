@@ -8,3 +8,12 @@ function backImg() {
 function nextImg() {
   image.src = "https://s09.stc.yc.kpcdn.net/share/i/4/2235353/wr-750.webp";
 }
+
+let imageLeft = document.getElementById("leftCat");
+let imageRight = document.getElementById("rightCat");
+
+// задание под звездочкой
+function calculateTotalPrice(quantity, price) {
+  // quantity - количество единиц товара
+  // price - цена за единицу товара
+}
