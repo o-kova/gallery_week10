@@ -11,6 +11,6 @@ function calculateTotalPrice(quantity = 2, price = 15000000) {
   let totalСost = quantity * price;
   totalСost = totalCost.toLocaleString("ru-RU");
   //   totalСost = Number(quantity) * Number(price);
-  console.log(`Стоимость покупки: ${totalCost} рублей"`);
-  alert(`Стоимость покупки: ${totalCost} рублей"`);
+  console.log(`Стоимость покупки: ${totalCost} рублей`);
+  alert(`Стоимость покупки: ${totalCost} рублей`);
 }
