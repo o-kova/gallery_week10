@@ -8,9 +8,9 @@ function calculateTotalPrice(quantity = 2, price = 15000000) {
   //   let price = prompt("Какая цена за единицу товара?");
   quantity = Number(quantity);
   price = Number(price);
-  let totalСost = quantity * price;
-  totalСost = totalCost.toLocaleString("ru-RU");
-  //   totalСost = Number(quantity) * Number(price);
+  let totalCost = quantity * price;
+  totalCost = totalCost.toLocaleString("ru-RU");
+  //   totalCost = Number(quantity) * Number(price);
   console.log(`Стоимость покупки: ${totalCost} рублей`);
   alert(`Стоимость покупки: ${totalCost} рублей`);
 }
